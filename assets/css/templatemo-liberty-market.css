@@ -127,6 +127,7 @@ Global Styles
 */
 html,
 body {
+  margin: 0px;
   background: #fff;
   font-family: 'Roboto', sans-serif;
 }
