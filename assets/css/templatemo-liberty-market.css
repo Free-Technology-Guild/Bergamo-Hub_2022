@@ -41,7 +41,11 @@ figure, header, nav, section, article, aside, footer, figcaption {
   border: 0;
   outline: 0;
 }
-
+html {
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+}
 #btn-back-to-top {
 position: fixed;
 bottom: 20px;
@@ -130,7 +134,7 @@ Global Styles
 */
 html,
 body {
-  margin: 0px;
+  margin: 0px auto;
   width: 100vw;
   height: 100vh;
   background: #fff;
@@ -768,6 +772,17 @@ Banner Style
   font-weight: 700;
   line-height: 66px;
   text-transform: uppercase;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  h2.responsive {
+    color: #fff;
+      font-size: 45px;
+      font-weight: 700;
+      line-height: 66px;
+      text-transform: uppercase;
+  }
+  
 }
 
 .main-banner p {
