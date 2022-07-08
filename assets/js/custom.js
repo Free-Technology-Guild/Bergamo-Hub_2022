@@ -8,7 +8,6 @@
         $('#js-preloader').addClass('loaded');
 
     });
-	
 //To the top
 	//Get the button
 	let mybutton = document.getElementById("btn-back-to-top");
@@ -259,7 +258,7 @@
 
 		$("#preloader").animate({
 			'opacity': '0'
-		}, 100, function(){
+		}, 600, function(){
 			setTimeout(function(){
 				$("#preloader").css("visibility", "hidden").fadeOut();
 			}, 300);
