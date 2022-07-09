@@ -39,7 +39,7 @@
 
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" class="scrollspy-example" tabindex="0">
 
   <!-- ***** Preloader Start ***** -->
   <div id="js-preloader" class="js-preloader">
@@ -59,7 +59,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <nav class="main-nav">
+          <nav id="navbar" class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
               <img src="assets/images/logo.png" alt="logo">
@@ -67,12 +67,12 @@
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li><a href="#Home" class="active">Home</a></li>
-              <li><a href="#Esplora">Esplora</a></li>
-              <li><a href="#Progetti">Progetti</a></li>
-              <li><a href="#Bios">Bios</a></li>
-              <li><a href="#Commento">Commento</a></li>
-              <li><a href="#Schema">Schema</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Esplora">Esplora</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Progetti">Progetti</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Bios">Bios</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Commento">Commento</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Schema">Schema</a></li>
             </ul>
             <a class='menu-trigger'>
               <span>Menu</span>
@@ -91,7 +91,7 @@
       <div class="row">
         <div class="col-lg-6 align-self-center">
           <div class="header-text">
-            <h6>Bergamo|Hub</h6>
+            <h6 id="Home">Bergamo|Hub</h6>
             <h2 class="responsive">L' Arte di innovare attraverso la collaborazione</h2>
             <p>Nella primavera del 2013 è stata consegnata al comune di Bergamo la proposta di ideazione progettuale
               "Bergamo|Hub" in risposta all' avviso pubblico mirato alla riqualificazione
